@@ -1,0 +1,63 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc;
+}
+
+.header {
+  background-color: #00205b;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.install-button {
+  display: none;
+  background-color: #00205b;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 22px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.install-button:hover {
+  background-color: #0b3d91;
+  transform: translateY(-3px);
+}
+
+/* Toast notification */
+.install-toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00205b;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
