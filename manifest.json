@@ -1,0 +1,23 @@
+{
+  "name": "Ateneo Alumni Hub",
+  "short_name": "AlumniHub",
+  "description": "A Progressive Web App for Ateneo de Davao University alumni to manage documents and records online or offline.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#00205B",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
